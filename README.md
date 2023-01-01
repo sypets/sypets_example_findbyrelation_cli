@@ -1,6 +1,6 @@
 Example for reproducing TYPO3 Issue:
 
-* https://forge.typo3.org/issues/99295
+* https://forge.typo3.org/issues/99442
 
 FileRepository::findByRelation() does not work in CLI mode.
 
@@ -9,9 +9,8 @@ FileRepository::findByRelation() does not work in CLI mode.
 Without Composer:
 
 ```shell
-git clone https://github.com/sypets/sypets_typo3_minimal_example_99295 sypets_example
+git clone https://github.com/sypets/sypets_example_findbyrelation_cli.git
 ```
-**Be sure to rename the extension to `sypets_example` (as done in the git clone example)!**
 
 With Composer:
 
