@@ -1,8 +1,6 @@
 <?php
 
-if (!defined('TYPO3_MODE')) {
-    die ('Access denied.');
-}
+defined('TYPO3') or die();
 
 $extkey = 'sypets_example_findbyrelation_cli';
 $extensionName = 'SypetsExampleFindbyrelationCli';
