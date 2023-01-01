@@ -1,0 +1,13 @@
+services:
+  _defaults:
+    autowire: true
+    autoconfigure: true
+    public: false
+
+  Sypets\SypetsExampleFindbyrelatationCli\Command\ShowFileRelationCommand:
+    tags:
+      - name: 'console.command'
+        command: 'sypets_example:showFileRelation'
+        description: 'Show file relations'
+        schedulable: false
+        hidden: false

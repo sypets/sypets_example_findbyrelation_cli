@@ -1,0 +1,32 @@
+{
+	"name": "sypets/sypets-example-findbyrelation-cli",
+	"type": "typo3-cms-extension",
+	"description": "TYPO3 example for reproducing a TYPO3 issue: FileRepository::findByRelation() does not work in CLI mode.",
+	"autoload": {
+		"psr-4": {
+			"Sypets\\SypetsExampleFindbyrelatationCli\\": "Classes/"
+		}
+	},
+	"authors": [
+		{
+			"name": "Sybille Peters",
+			"email": "sypets@gmx.de",
+			"role": "Developer"
+		}
+	],
+	"require": {
+		"typo3/cms-core": "^11.5 || 12 || dev-main"
+	},
+	"license": "GPL-2.0-or-later",
+	"config": {
+		"vendor-dir": ".Build/vendor",
+		"bin-dir": ".Build/bin"
+	},
+	"extra": {
+		"typo3/cms": {
+			"cms-package-dir": "{$vendor-dir}/typo3/cms",
+			"web-dir": ".Build/Web",
+			"extension-key": "sypets_example_findbyrelation_cli"
+		}
+	}
+}
