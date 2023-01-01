@@ -11,7 +11,7 @@ $EM_CONF[$_EXTKEY] = [
     'author_email'     => 'sypets@gmx.de',
     'constraints'      => [
         'depends' => [
-            'typo3' => '11.5.1-12.9.99',
+            'typo3' => '11.5.1-11.9.99',
         ],
     ],
 ];

@@ -7,7 +7,7 @@ FileRepository::findByRelation() does not work in CLI mode.
 ## Supported versions
 
 * Tested with TYPO3 v11.5.21
-* Does not work with TYPO3 v12 (yet)!
+* Does not work with TYPO3 v12
 
 
 ## Install
